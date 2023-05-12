@@ -11,3 +11,50 @@
     --bgc-secondary: #282828;
     --bgc-top : #080b12;
 }
+
+
+/* generics */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* utility */
+
+.row {
+    display: flex;
+}
+
+/* header */
+
+header {
+    height: 100px;
+    background-color: var(--bgc-top);
+}
+
+/* main */
+
+main {
+    height: calc(100vh - 100px);
+    overflow: auto;
+}
+
+
+nav {
+    height: 100%;
+    width: 50px;
+    background-color: #000;
+}
+
+/* footer */
+
+footer {
+    height: 100px;
+    background-color: var(--bgc-secondary);
+}
+
+/********************************************
+                RESPONSIVE
+***************************************/
