@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* custom properies palette */
+
+:root {
+    --bgc-main: #141922;
+    --bgc-secondary: #282828;
+    --bgc-top : #080b12;
+}
