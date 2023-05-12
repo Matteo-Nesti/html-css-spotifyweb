@@ -17,35 +17,58 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'PT Sans', sans-serif;
 }
 
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
 /* utility */
 
 .row {
     display: flex;
 }
 
+.grow {
+    flex-grow: 1;
+}
+
+.w-50 {
+    width: 50px;
+}
+
+.w-full {
+    width: 100%;
+}
+
 /* header */
 
-header {
+.main-header {
+    
     height: 100px;
     background-color: var(--bgc-top);
 }
 
 /* main */
 
+
 main {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 200px);
     overflow: auto;
+    background-color: var(--bgc-main);
 }
 
-
-nav {
+.side-bar {
     height: 100%;
-    width: 50px;
     background-color: #000;
+}
+
+.main-link {
+    display:flex;
+    
 }
 
 /* footer */
@@ -53,8 +76,28 @@ nav {
 footer {
     height: 100px;
     background-color: var(--bgc-secondary);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 /********************************************
                 RESPONSIVE
 ***************************************/
+
+ @media screen and (min-width:576px) {
+
+    .main-header {
+        width: calc(100vw - 200px);
+    }
+    .side-bar.w-200-tablet {
+        width: 200px;
+    }
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+ }
