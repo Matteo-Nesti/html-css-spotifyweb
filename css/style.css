@@ -101,13 +101,18 @@ img {
  
 }
 
-.circle {
+.circle-small {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: #b2b2b2;
     overflow: hidden;
     margin-right: 10px;
+}
+
+.circle-image {
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .border-bot {
@@ -210,6 +215,34 @@ main {
     font-weight: 600;
 }
 
+/*************  Main section  *****************/
+
+.recently h2, h4 {
+    color: #fff;
+    margin: 10px 0;
+}
+
+.recently h4 {
+    font-size: 15px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.card {
+    text-align: center;
+    width: 50%;
+}
+
+.recently span {
+    color: #b2b2b2;
+    font-size: 11px;
+    font-weight: 600;
+}
+
 /* footer */
 
 footer {
@@ -224,6 +257,8 @@ footer {
 /********************************************
                 RESPONSIVE
 ***************************************/
+
+/*********** S ***********/
 
  @media screen and (min-width:576px) {
 
@@ -253,3 +288,23 @@ footer {
         right: 0;
     }
  }
+
+/*********** M ***********/
+
+@media screen and (min-width:768px) {
+
+    .card {
+        width: 25%;
+    }
+}
+
+
+
+/*********** L ***********/
+
+@media screen and (min-width:1080px) {
+
+    .card {
+        width: calc(100% / 6);
+    }
+}
