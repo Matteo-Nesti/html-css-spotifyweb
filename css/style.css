@@ -318,6 +318,7 @@ main {
 }
 
 /************ main hover **************/
+
 .card:hover .overlay-card {
     position: absolute;
     top: 0;
@@ -426,7 +427,7 @@ footer {
     background-color: transparent;
     
     position: absolute;
-    right: 0;
+    right: -10;
     top: -5px;
     bottom: 0;
 }
@@ -458,12 +459,6 @@ footer {
 }
 
 /************ hover footer ******************/
-
-.central-footer i:hover{
-    cursor: pointer;
-    transform: scale(1.05);
-}
-
 .left-footer i:hover {
     cursor: pointer;
     color: #fff;
@@ -474,6 +469,12 @@ footer {
     text-decoration: underline;
     cursor:pointer;
 }
+
+.central-footer i:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 
 .progress-bar-container:hover {
     cursor: pointer;
