@@ -23,26 +23,38 @@
             <nav class="side-bar w-50 p-1">
                 <ul>
                     <li id="logo-phone">
-                        <img src="img/logo-small.svg" alt="logo" > 
+                        <a href="#">
+                            <img src="img/logo-small.svg" alt="logo" > 
+                        </a>
                     </li>
                     <li >
-                        <img src="img/home.svg" alt="home" class="side-icon ">
+                        <a href="#">
+                            <img src="img/home.svg" alt="home" class="side-icon ">
+                        </a>
                     </li>
                     <li>
-                        <img src="img/search.svg" alt="search" class="side-icon">
+                        <a href="#">
+                            <img src="img/search.svg" alt="search" class="side-icon">
+                        </a>
                     </li>
                     <li>
-                        <img src="img/libreria.svg" alt="library" class="side-icon">
+                        <a href="#">
+                            <img src="img/libreria.svg" alt="library" class="side-icon">
+                        </a>
                     </li>
                 </ul>
 
                 <ul>
                     <li>
-                        <img src="img/download.svg" alt="" class="small-dwnld side-icon">
+                        <a href="#">
+                            <img src="img/download.svg" alt="" class="small-dwnld side-icon">
+                        </a>
                     </li>
                     <li>
                         <div class="circle-small">
-                            <img src="img/profile.svg" alt="">
+                            <a href="#">
+                                <img src="img/profile.svg" alt="">
+                            </a>
                         </div>
                     </li>
                 </ul>
@@ -53,26 +65,37 @@
             <nav class="side-bar w-250-tablet">
                 <ul>
                     <li id="logo-big">
-                        <img src="img/logo.svg" alt="logo" > 
+                        <a href="#">
+                            <img src="img/logo.svg" alt="logo" > 
+                        </a>
                     </li>
                     <li class="selected-side">
-                        <img src="img/home.svg" alt="home" class="side-icon">
-                        <div class="p-1">Home</div>
+                        <a href="#">
+                            <img src="img/home.svg" alt="home" class="side-icon">
+                            Home
+                        </a>
                     </li>
                     <li>
-                        <img src="img/search.svg" alt="search" class="side-icon">
-                        <div class="p-1">Cerca</div>
+                        <a href="#">
+                            <img src="img/search.svg" alt="search" class="side-icon">
+                            Cerca
+                        </a>
                     </li>
-                    <li class="m-bot">
-                        <img src="img/libreria.svg" alt="library" class="side-icon">
-                        <div class="p-1">Libreria</div>
+                    <li class="m-bot-s">
+                        <a href="#">
+                            <img src="img/libreria.svg" alt="library" class="side-icon">
+                             Libreria
+                        </a>
                     </li>
+
                     <li class="m-bot-s">
                         <h3>PLAYLIST</h3>
                     </li>
                     <li  class="m-bot-s">
-                        <a href="#"><i class="fa-regular fa-square-plus"></i></a>
-                        <a href="#">Crea playlist</a>
+                        <a href="#">
+                            <i class="fa-regular fa-square-plus side-icon"></i>
+                            Crea playlist
+                        </a>
                     </li>
                     <li class="m-bot-s">
                         <a href="#">nome playlist</a>
@@ -102,8 +125,10 @@
 
                 <ul>
                     <li class="border-bot">
-                        <img src="img/download.svg" alt="" class="small-dwnld-tablet" >
-                        <div class="p-1">Installa App </div>
+                        <a href="#" class="p-1">
+                            <img src="img/download.svg" alt="" class="small-dwnld-tablet" >
+                            Installa App
+                        </a>
                     </li>
                     <li >
                         <div class="circle-small">
@@ -117,97 +142,126 @@
         </div>
         
         <div class="col grow">
+
+            <!-- header btn -->
             
             <main class="">
-            <header class="main-header">
-                <a href="#" class="btn mid-btn rounded ">EFFETUA L'UPGRADE</a>
-            </header>    
+                <header class="main-header">
+                    <a href="#" class="btn mid-btn rounded ">EFFETUA L'UPGRADE</a>
+                </header>    
 
-                <div class="container">
-                    <section class="main-section">
-                        <ul class="main-link w-full m-bot-s">
-                            <li class="lateral-space-s m-bot-s selected-link"><a href="#">IN EVIDENZA</a></li>
-                            <li class="lateral-space-s m-bot-s"><a href="#">PODCAST</a></li>
-                            <li class="lateral-space-s m-bot-s"><a href="#">CLASSIFICHE</a></li>
-                            <li class="lateral-space-s m-bot-s"><a href="#">GENERI E MOOD</a></li>
-                            <li class="lateral-space-s m-bot-s"><a href="#">NUOVE USCITE</a></li>
-                            <li class="lateral-space-s m-bot-s"><a href="#">SCOPRI</a></li>
-                        </ul>
-                    </section>
 
-                    <section class="recently ">
-                        <h2>Recently Played</h2>
-                        <div class="cards">
-                            <div class="card p-1">
-                                <img src="img/metal_lifting.jpg" alt="">
-                                <h4>Heavy Metal</h4>
-                                <span>Subtitles</span>
+                <!-- link main -->
+                    <div class="container">
+                        <section class="main-section">
+                            <ul class="main-link w-full m-bot-s">
+                                <li class="lateral-space-s m-bot-s selected-link"><a href="#">IN EVIDENZA</a></li>
+                                <li class="lateral-space-s m-bot-s"><a href="#">PODCAST</a></li>
+                                <li class="lateral-space-s m-bot-s"><a href="#">CLASSIFICHE</a></li>
+                                <li class="lateral-space-s m-bot-s"><a href="#">GENERI E MOOD</a></li>
+                                <li class="lateral-space-s m-bot-s"><a href="#">NUOVE USCITE</a></li>
+                                <li class="lateral-space-s m-bot-s"><a href="#">SCOPRI</a></li>
+                            </ul>
+                        </section>
+
+                        <!-- cards -->
+
+                        <section class="recently ">
+                            <h2>Recently Played</h2>
+                            <div class="cards">
+                                
+                                    <div class="card p-1 ">
+                                        <div class="img-card-container">
+                                            <img src="img/metal_lifting.jpg" alt="">
+                                            <div class="overlay-card"></div>
+                                        </div>
+                                        <h4>Heavy Metal</h4>
+                                        <span>Subtitles</span>
+                                    </div>
+
+                                <div class="card p-1">
+                                    <div class="img-card-container">
+                                        <img src="img/stranger.jpeg" alt="">
+                                        <div class="overlay-card"></div>
+                                    </div>
+                                    <h4>Stranger Things, vol.1(a netflix original series Soundtrack)</h4>
+                                    <span>Kyle Dixon & michael Stein</span>
+                                </div>
+
+                                <div class="card p-1">
+                                    <div class="img-card-container">
+                                        <img src="img/aquietplace.jpeg" alt="">
+                                        <div class="overlay-card"></div>
+                                    </div>
+                                    <h4>A qiuet Place</h4>
+                                    <span>Subtitle</span>
+                                </div>
+
+                                <div class="card p-1">
+                                    <div class="img-card-container">
+                                        <img src="img/split.jpeg" alt="">
+                                        <div class="overlay-card"></div>
+                                    </div>
+                                    <h4>Split</h4>
+                                    <span>subtitle</span>
+                                </div>
+
+                                <div class="card p-1">
+                                    <div class="img-card-container">
+                                        <img src="img/cure.jpeg" alt="">
+                                        <div class="overlay-card"></div>
+                                    </div>
+                                    <h4>A cure for wellness</h4>
+                                    <span>subtitle</span>
+                                </div>
+
+                                <div class="card p-1">
+                                    <div class="img-card-container">
+                                        <img src="img/sinister.jpeg" alt="">
+                                        <div class="overlay-card"></div>
+                                    </div>
+                                    <h4>Sinister</h4>
+                                    <span>subtitle</span>
+                                </div>
                             </div>
 
-                            <div class="card p-1">
-                                <img src="img/stranger.jpeg" alt="">
-                                <h4>Stranger Things, vol.1(a netflix original series Soundtrack)</h4>
-                                <span>Kyle Dixon & michael Stein</span>
+                            <h2>Creato per Jhon Doe</h2>
+                            <span>Più ascolti, più accurati saranno i suggerimenti</span>
+                            <div class="cards">
+                                <div class="card p-1">
+                                    <img src="img/radar.jpeg" alt="">
+                                    <h4>Release Radar</h4>
+                                </div>
+                                <div class="card p-1">
+                                    <img src="img/mixdaily.jpeg" alt="">
+                                    <h4>Daily Mix</h4>
+                                </div>
                             </div>
 
-                            <div class="card p-1">
-                                <img src="img/aquietplace.jpeg" alt="">
-                                <h4>A qiuet Place</h4>
-                                <span>Subtitle</span>
+                            <h2>Artisti più popolari</h2>
+                            <span>Più ascolti, più accurati saranno i suggerimenti</span>
+                            <div class="cards">
+                                <div class="card p-1" >
+                                    <img src="img/youg.jpeg" alt="" class="circle-image">
+                                    <h4>Lana Del Rey</h4>
+                                </div>
+                                <div class="card p-1">
+                                    <img src="img/einaudi.jpeg" alt="" class="circle-image">
+                                    <h4>Ludovico Einaudi</h4>
+                                </div>
                             </div>
-
-                            <div class="card p-1">
-                                <img src="img/split.jpeg" alt="">
-                                <h4>Split</h4>
-                                <span>subtitle</span>
-                            </div>
-
-                            <div class="card p-1">
-                                <img src="img/cure.jpeg" alt="">
-                                <h4>A cure for wellness</h4>
-                                <span>subtitle</span>
-                            </div>
-
-                            <div class="card p-1">
-                                <img src="img/sinister.jpeg" alt="">
-                                <h4>Sinister</h4>
-                                <span>subtitle</span>
-                            </div>
-                        </div>
-
-                        <h2>Creato per Jhon Doe</h2>
-                        <span>Più ascolti, più accurati saranno i suggerimenti</span>
-                        <div class="cards">
-                            <div class="card p-1">
-                                <img src="img/radar.jpeg" alt="">
-                                <h4>Release Radar</h4>
-                            </div>
-                            <div class="card p-1">
-                                <img src="img/mixdaily.jpeg" alt="">
-                                <h4>Daily Mix</h4>
-                            </div>
-                        </div>
-
-                        <h2>Artisti più popolari</h2>
-                        <span>Più ascolti, più accurati saranno i suggerimenti</span>
-                        <div class="cards">
-                            <div class="card p-1" >
-                                <img src="img/youg.jpeg" alt="" class="circle-image">
-                                <h4>Lana Del Rey</h4>
-                            </div>
-                            <div class="card p-1">
-                                <img src="img/einaudi.jpeg" alt="" class="circle-image">
-                                <h4>Ludovico Einaudi</h4>
-                            </div>
-                        </div>
-                    </section>
-                </div>
+                        </section>
+                    </div>
             </main>
 
         </div>
     </div>
 
+    <!-- footer -->
+
     <footer class="p-1">
+
+        <!--  left -->
         <div class="left-footer">
             <div class="current">
                 <img src="img/player_left.jpg" alt="">
@@ -225,24 +279,30 @@
             </div>
         </div>
 
+        <!-- center -->
+
         <div class="central-footer lateral-space-s">
             <div class="m-bot-s player-command">
                 <i class="fa-solid fa-shuffle"></i>
                 <i class="fa-solid fa-backward lateral-space-xs"></i>
                 <i class="fa-solid fa-circle-play fa-xl lateral-space-xs"></i>
                 <i class="fa-solid fa-forward lateral-space-xs"></i>
-                <i class="fa-solid fa-rotate-left fa-flip-horizontal"></i>
+                <i class="fa-solid fa-rotate-right"></i>
             </div>
 
             <div class="counter">
                 <span>0.25</span>
                 <div class="progress-bar-container">
-                    <div class="progress-bar"></div>
+                    <div class="progress-bar">
+                        <div class="circle-pointer"></div>
+                    </div>
                 </div>
                 <span>4.35</span>
             </div>
         </div>
 
+
+        <!-- right -->
         <div class="right-footer ">
             <div class="volume-menu">
                 <i class="fa-solid fa-bars"></i>
@@ -251,7 +311,9 @@
             </div>
 
             <div class="volume-container">
-                <div class="progress-bar"></div>
+                <div class="progress-bar">
+                    <div class="circle-pointer"></div>
+                </div>
             </div>
         </div>
     </footer>
