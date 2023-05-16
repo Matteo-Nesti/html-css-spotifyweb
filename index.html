@@ -25,8 +25,8 @@
                     <li id="logo-phone">
                         <img src="img/logo-small.svg" alt="logo" > 
                     </li>
-                    <li>
-                        <img src="img/home.svg" alt="home" class="side-icon">
+                    <li >
+                        <img src="img/home.svg" alt="home" class="side-icon ">
                     </li>
                     <li>
                         <img src="img/search.svg" alt="search" class="side-icon">
@@ -55,7 +55,7 @@
                     <li id="logo-big">
                         <img src="img/logo.svg" alt="logo" > 
                     </li>
-                    <li>
+                    <li class="selected-side">
                         <img src="img/home.svg" alt="home" class="side-icon">
                         <div class="p-1">Home</div>
                     </li>
@@ -118,15 +118,15 @@
         
         <div class="col grow">
             
-            <header class="main-header p-1">
-                <a href="#" class="btn mid-btn rounded">EFFETUA L'UPGRADE</a>
+            <main class="">
+            <header class="main-header">
+                <a href="#" class="btn mid-btn rounded ">EFFETUA L'UPGRADE</a>
             </header>    
 
-            <main>
-                <div class="container ">
+                <div class="container">
                     <section class="main-section">
                         <ul class="main-link w-full m-bot-s">
-                            <li class="lateral-space-s m-bot-s"><a href="#">IN EVIDENZA</a></li>
+                            <li class="lateral-space-s m-bot-s selected-link"><a href="#">IN EVIDENZA</a></li>
                             <li class="lateral-space-s m-bot-s"><a href="#">PODCAST</a></li>
                             <li class="lateral-space-s m-bot-s"><a href="#">CLASSIFICHE</a></li>
                             <li class="lateral-space-s m-bot-s"><a href="#">GENERI E MOOD</a></li>
@@ -135,41 +135,41 @@
                         </ul>
                     </section>
 
-                    <section class="recently">
+                    <section class="recently ">
                         <h2>Recently Played</h2>
                         <div class="cards">
                             <div class="card p-1">
-                                <img src="/img/metal_lifting.jpg" alt="">
+                                <img src="img/metal_lifting.jpg" alt="">
                                 <h4>Heavy Metal</h4>
                                 <span>Subtitles</span>
                             </div>
 
                             <div class="card p-1">
-                                <img src="/img/stranger.jpeg" alt="">
+                                <img src="img/stranger.jpeg" alt="">
                                 <h4>Stranger Things, vol.1(a netflix original series Soundtrack)</h4>
                                 <span>Kyle Dixon & michael Stein</span>
                             </div>
 
                             <div class="card p-1">
-                                <img src="/img/aquietplace.jpeg" alt="">
+                                <img src="img/aquietplace.jpeg" alt="">
                                 <h4>A qiuet Place</h4>
                                 <span>Subtitle</span>
                             </div>
 
                             <div class="card p-1">
-                                <img src="/img/split.jpeg" alt="">
+                                <img src="img/split.jpeg" alt="">
                                 <h4>Split</h4>
                                 <span>subtitle</span>
                             </div>
 
                             <div class="card p-1">
-                                <img src="/img/cure.jpeg" alt="">
+                                <img src="img/cure.jpeg" alt="">
                                 <h4>A cure for wellness</h4>
                                 <span>subtitle</span>
                             </div>
 
                             <div class="card p-1">
-                                <img src="/img/sinister.jpeg" alt="">
+                                <img src="img/sinister.jpeg" alt="">
                                 <h4>Sinister</h4>
                                 <span>subtitle</span>
                             </div>
@@ -207,8 +207,53 @@
         </div>
     </div>
 
-    <footer>
+    <footer class="p-1">
+        <div class="left-footer">
+            <div class="current">
+                <img src="img/player_left.jpg" alt="">
+            </div>
 
+            <div class="lateral-space-s">
+                <h5>Player </h5>
+                <div class="info-player">Brano</div>
+                <div class="info-player">Nome</div>
+            </div>
+
+            <div class="adder-list">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-folder"></i>
+            </div>
+        </div>
+
+        <div class="central-footer lateral-space-s">
+            <div class="m-bot-s player-command">
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-backward lateral-space-xs"></i>
+                <i class="fa-solid fa-circle-play fa-xl lateral-space-xs"></i>
+                <i class="fa-solid fa-forward lateral-space-xs"></i>
+                <i class="fa-solid fa-rotate-left fa-flip-horizontal"></i>
+            </div>
+
+            <div class="counter">
+                <span>0.25</span>
+                <div class="progress-bar-container">
+                    <div class="progress-bar"></div>
+                </div>
+                <span>4.35</span>
+            </div>
+        </div>
+
+        <div class="right-footer ">
+            <div class="volume-menu">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-desktop"></i>
+                <i class="fa-solid fa-volume-high"></i>
+            </div>
+
+            <div class="volume-container">
+                <div class="progress-bar"></div>
+            </div>
+        </div>
     </footer>
 
 </body>
